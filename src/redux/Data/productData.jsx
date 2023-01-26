@@ -1,0 +1,60 @@
+import { useTranslation } from "react-i18next";
+
+export default [
+  {
+    id: 1,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, Oystersteel and Everose gold",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126711chnr-0002.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 2,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, Oystersteel New Model 2022",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126720vtnr-0001.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 3,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, white gold",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126719blro-0003.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 4,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, white gold",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126719blro-0002.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 5,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, Oystersteel",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126710blnr-0003.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 6,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, Everose gold",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126715chnr-0001.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+  {
+    id: 7,
+    name: "GMT-MASTER II",
+    title: "Oyster, 40 mm, Oystersteel",
+    price: 28000,
+    img: "https://content.rolex.com/dam/2022-11/upright-bba-with-shadow/m126710blro-0001.png?impolicy=v6-upright&imwidth=420",
+    quantity: 1,
+  },
+];

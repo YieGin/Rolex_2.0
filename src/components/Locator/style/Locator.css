@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Store_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  font-family: 'Roboto', sans-serif;
+
+}
+.Image_map {
+  width: 50%;
+}
+.Image22 {
+  width: 100%;
+  margin-top: 10%;
+  transition: 1s;
+
+}
+.Image22:hover {
+  transform:scale(1.1);
+  transition: 1s;
+  width: 95.1%;
+  cursor: pointer;
+}

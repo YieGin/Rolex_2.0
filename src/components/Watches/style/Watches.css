@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Watches_main {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+  font-family: 'Montserrat', sans-serif;}
+
+.Watches_2 {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5%;
+}
+.Watches_2 >h1 {
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+}
+.Watches_2 >p {
+  padding-top: 2%;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+}
+.Watches_3 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 12%;
+  padding-top: 10%;
+  padding-bottom: 1%;
+  display: flex;
+  column-gap: 10px;
+}
+.Watches_3_3 {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 1%;
+  display: flex;
+  column-gap: 10px;
+}
+
+
+
+
+.Rolex_down {
+  margin-top: 1%;
+  margin-left: 1%;
+  z-index: 10;
+  letter-spacing: 0.2em;
+  text-align: center;
+ }
+
+.container33 {
+  display: flex;
+  width: 100%;
+  padding: 0% 10%;
+  box-sizing: border-box;
+}
+
+.box33 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  line-height: 0;
+  height: 400px;
+  width: 100%;
+}
+
+   .box33 > img {
+     width: 100%;
+     height: calc(100% - 5vh);
+     object-fit: cover; 
+     transition: .5s;
+   }
+   
+   .box33 > span {
+     display: block;
+     text-align: center;
+     height: 10vh;
+     line-height: 2.6;
+   }
+   
+   .box33:hover { flex: 1 1 50%; }
+   .box33:hover > img {
+    width: 60%;
+    height: 100%;
+   }
+
+   .container34 {
+    display: flex;
+    width: 100%;
+    padding: 10% 20%;
+    box-sizing: border-box;
+  }
+  
+  .box34 {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    line-height: 0;
+    height: 400px;
+    width: 100%;
+  }
+  
+     .box34 > img {
+       width: 100%;
+       height: calc(100% - 5vh);
+       object-fit: cover; 
+       transition: .5s;
+     }
+     
+     .box34 > span {
+       display: block;
+       text-align: center;
+       height: 10vh;
+       line-height: 2.6;
+     }
+     
+     .box34:hover { flex: 1 1 50%; }
+     .box34:hover > img {
+      width: 80%;
+      height: 100%;
+     }
+  

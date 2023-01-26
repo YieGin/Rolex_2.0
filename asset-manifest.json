@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Rolex_2.0/static/css/main.4167e139.css",
+    "main.js": "/Rolex_2.0/static/js/main.9685d85e.js",
+    "static/media/21.png": "/Rolex_2.0/static/media/21.d0c78d1ab7b8baf9546e.png",
+    "static/media/10.png": "/Rolex_2.0/static/media/10.1f6c6606d4f504cb9432.png",
+    "static/media/9.png": "/Rolex_2.0/static/media/9.ca8c7477ce9a71775770.png",
+    "static/media/13.png": "/Rolex_2.0/static/media/13.c0fd79a998d69c622e23.png",
+    "static/media/11.png": "/Rolex_2.0/static/media/11.b853dcd7002bc3196674.png",
+    "static/media/12.png": "/Rolex_2.0/static/media/12.e2cc427a67d1f1079119.png",
+    "static/media/7.png": "/Rolex_2.0/static/media/7.ded4782ce45a36df11d7.png",
+    "static/media/16.png": "/Rolex_2.0/static/media/16.898dd932d3f0b6a1bfed.png",
+    "static/media/19.png": "/Rolex_2.0/static/media/19.b52757ed6f19e0dcc6d2.png",
+    "static/media/18.png": "/Rolex_2.0/static/media/18.188a605bbd943f785dc5.png",
+    "static/media/8.png": "/Rolex_2.0/static/media/8.60431d177d6a5a3cbc24.png",
+    "static/media/6.png": "/Rolex_2.0/static/media/6.2d945ec7d0579e07767d.png",
+    "static/media/17.png": "/Rolex_2.0/static/media/17.77f69e83d4990b16b166.png",
+    "static/media/14.png": "/Rolex_2.0/static/media/14.f51a95d8dc3f1146a690.png",
+    "static/media/15.png": "/Rolex_2.0/static/media/15.30124a0e8ec1286ee404.png",
+    "static/media/2.png": "/Rolex_2.0/static/media/2.9edae9f931bc4d5ec2b6.png",
+    "static/media/5.png": "/Rolex_2.0/static/media/5.06c3009dc46705a3dfc5.png",
+    "static/media/4.png": "/Rolex_2.0/static/media/4.6629f875a9dcabb15d40.png",
+    "static/media/1.png": "/Rolex_2.0/static/media/1.ddcf92b09cf1aad46ba3.png",
+    "static/media/3.png": "/Rolex_2.0/static/media/3.ddcf92b09cf1aad46ba3.png",
+    "index.html": "/Rolex_2.0/index.html",
+    "static/media/getFetch.cjs": "/Rolex_2.0/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.4167e139.css.map": "/Rolex_2.0/static/css/main.4167e139.css.map",
+    "main.9685d85e.js.map": "/Rolex_2.0/static/js/main.9685d85e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4167e139.css",
+    "static/js/main.9685d85e.js"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+
+    "Navbar": {
+       "welcome": {
+           "watches": "Montres",
+           "worold": "Le monde de Rolex",
+           "store": "Localisateur de magasin",
+           "search": "Rechercher",
+           "selection": "Votre sélection"
+       }
+    },
+    "Cartt": {
+        "page2": {
+            "selection": "VOTRE SÉLECTION",
+            "quantity": "QUANTITÉ TOTALE",
+            "amount": "MONTANT TOTAL",
+            "have": "ÉLÉMENTS"
+        }
+     },
+     "Search": {
+        "page3": {
+            "search": "CHERCHER SUR LE SITE ROLEX",
+            "jeweler": "Trouver un bijoutier"
+        }
+      },
+      "Locator": {
+        "page4": {
+            "1": "JOAILLIERS OFFICIELS ROLEX EN",
+            "2": "L'EUROPE",
+            "3": "Carte",
+            "4": "Seule Rolex officielle",
+            "5": "les bijoutiers sont autorisés à",
+            "6": "vendre et entretenir une montre Rolex.",
+            "7": "Avec les compétences nécessaires, le savoir-faire technique et les équipements spéciaux,",
+            "8": "ils garantissent l'authenticité de chaque pièce de votre Rolex et vous aident à faire votre choix",
+            "9": "qui durera toute une vie."
+        }
+      },
+      "Watches": {
+        "page5": {
+            "1": "MONTRES ROLEX",
+            "2": "LA COLLECTION",
+            "3": "Découvrez la collection Rolex de montres prestigieuses de haute précision.",
+            "4": "Rolex propose un large assortiment de montres Oyster Perpetual et Cellini pour s'adapter à tous les poignets. Découvrez la vaste sélection de montres Rolex pour trouver une combinaison parfaite de style et de fonctionnalité.",
+            "5": "Montres classiques",
+            "6": "Voir tout",
+            "7": "JOUR-DATE",
+            "8": "DATEJUST",
+            "9": "HUÎTRE PERPÉTUELLE",
+            "10": "LADY-DATEJUST",
+            "11": "CIEL-HABITANT",
+            "12": "CELLINI",
+            "13": "Montres professionnelles",
+            "14": "Voir tout",
+            "15": "AIR-KING",
+            "16": "YACHT-MASTER",
+            "17": "SOUS-MARINIÈRE",
+            "18": "COSMOGRAPH DAYTONA",
+            "19": "HABITANT DE LA MER",
+            "20": "MILGAUSS",
+            "21": "Rolex propose une large gamme de modèles allant des montres professionnelles aux montres classiques pour s'adapter à tous les poignets.",
+            "22": "Explorez la collection Rolex en sélectionnant vos modèles, matériaux, lunettes, cadrans et bracelets préférés pour trouver la montre faite pour vous.",
+            "23": "Chercheur de montre",
+            "24": "Voir tout",
+            "25": "MONTRES POUR HOMMES",
+            "26": "MONTRES POUR FEMMES",
+            "27": "MONTRES EN ACIER",
+            "28": "MONTRES POUR HOMMES",
+            "29": "MONTRES POUR FEMMES",
+            "30": "MONTRES EN ACIER",
+            "31": "EXPLORATRICE"
+        }
+      },
+      "World": {
+        "page6": {
+            "1": "LE MONDE ROLEX",
+            "2": "SPORTS, ARTS ET EXPLORATION",
+            "3": "Depuis plus d'un siècle, les montres Rolex accompagnent les explorateurs et les accomplisseurs du monde entier, du sommet des plus hautes montagnes aux profondeurs de l'océan.",
+            "4": "Aujourd'hui, Rolex est présente sur les événements les plus prestigieux du golf, de la voile, du tennis, du sport automobile et des tournois équestres. Rolex apporte une contribution unique et durable à la culture, à la science et à l'exploration mondiales.",
+            "5": "Rolex et le mécénat",
+            "6": "ROLEX ET LE SPORT AUTOMOBILE",
+            "7": "ROLEX ET LE TENNIS",
+            "8": "ROLEX ET L'EQUESTRIE",
+            "9": "ROLEX ET LE GOLF",
+            "10": "ROLEX ET LE SPORT AUTOMOBILE",
+            "11": "ROLEX ET LE YACHT",
+            "12": "Arts et culture",
+            "13": "ROLEX ET LE CINÉMA",
+            "14": "ROLEX ET ARCHITECTURE",
+            "15": "ROLEX ET LES ARTS",
+            "16": "MENTORS et PROTÉGÉS ROLEX",
+            "17": "Sciences et exploration",
+            "18": "ROLEX ET EXPLORATION",
+            "19": "PRIX ROLEX POUR L'ENTREPRISE"
+        }
+      },
+      "View": {
+        "page7": {
+            "1": "MONTRES CLASSIQUES",
+            "2": "LA COLLECTION",
+            "3": "Style intemporel, reconnaissable en un coup d'œil.",
+            "4": "Les montres Oyster Perpetual Classic et la collection Cellini se composent de modèles qui combinent le savoir-faire de Rolex et les hauts standards de perfection dans une approche qui valorise le patrimoine horloger dans sa forme la plus intemporelle.",
+            "5": "DAT-DATE",
+            "6": "DATEJUST",
+            "7": "HUÎTRE PERPÉTUELLE",
+            "8": "CIEL-HABITANT",
+            "9": "CELLINI",
+            "10": "LADY-DATEJUST",
+            "11": "MONTRES PROFESSIONNELLES"
+      }
+      },
+      "View2": {
+        "page7": {
+            "1": "MONTRES PROFESSIONNELLES",
+            "2": "LA COLLECTION",
+            "3": "Alliant fonctionnalité et style intemporel.",
+            "4": "Parcourez les montres Rolex Professional et découvrez votre garde-temps préféré en combinant les matériaux, les lunettes, les cadrans et les bracelets. Rolex propose une large gamme de modèles Professional, véritables montres-outils conçues pour répondre à des besoins professionnels et sportifs spécifiques dans les domaines de la plongée, de la course, de la navigation, de l'exploration et de l'aviation.",
+            "5": "AIR-KING",
+            "6": "GMT-MASTER II",
+            "7": "YACHT-MASTER",
+            "8": "SOUS-MARINIÈRE",
+            "9": "COSMOGRAPH DAYTONA",
+            "10": "HABITANT DE LA MER",
+            "11": "MONTRES CLASSIQUES"
+      }
+      },
+    "LandingPage": {
+      "Page1": {
+          "1": "GMT-MASTER II",
+          "2": "LA MONTRE COSMOPOLITE",
+          "3": "Conçu pour afficher l'heure dans deux fuseaux horaires différents simultanément, le GMT-Master, lancé en 1955, a été développé à l'origine comme un instrument de navigation pour les professionnels sillonnant le globe.",
+          "4": "Héritière du modèle original, la GMT-Master II a été dévoilée en 1982, avec un nouveau mouvement assurant une grande facilité d'utilisation. Sa combinaison de fonctionnalité inégalée, de robustesse et d'esthétique immédiatement reconnaissable a attiré un public plus large de voyageurs du monde.",
+          "6": "GMT-MASTER II",
+          "7": "Oyster, 40 mm, Oystersteel et or Everose",
+          "8": "GMT-MASTER II",
+          "9": "Oyster, 40 mm, Oystersteel Nouveau modèle 2022",
+          "10": "GMT-MASTER II",
+          "11": "Huître, 40 mm, or blanc",
+          "12": "GMT-MASTER II",
+          "13": "Huître, 40 mm, or blancd",
+          "14": "GMT-MASTER II",
+          "15": "Huître, 40 mm, acier à huître",
+          "16": "GMT-MASTER II",
+          "17": "Huître, 40 mm, or Everose",
+          "18": "GMT-MASTER II",
+          "19": "Huître, 40 mm, acier à huître",
+          "20": "Design",
+          "21": "CÉRAMIQUE HAUTE TECHNOLOGIE",
+          "22": "L'emblématique lunette bicolore rend la GMT-Master II immédiatement reconnaissable.",
+          "23": "Cette lunette tournante bidirectionnelle est équipée d'un insert Cerachrom gradué sur 24 heures fabriqué en céramique extrêmement dure, créé grâce à un procédé pionnier développé par Role",
+          "24": "L'insert Cerachrom bicolore est divisé en deux moitiés : une pour les heures de jour et l'autre pour les heures de nuit. Rolex a développé une technique exclusive pour créer l'insert Cerachrom en rouge et bleu - les couleurs originales de la GMT-Master.",
+          "25": "La démarcation nette et nette entre les deux couleurs est le résultat d'une grande délicatesse et précision au cours des différentes étapes du processus de coloration.",
+          "26": "Caractéristiques",
+          "27": "DEUX FUSEAUX HORAIRES A LA FOIS",
+          "28": "À l'étranger, les voyageurs peuvent lire l'heure de deux fuseaux horaires simultanément.",
+          "29": "Avec les traditionnelles aiguilles des heures, minutes et secondes, une aiguille 24 heures à pointe triangulaire et une lunette tournante bidirectionnelle avec insert Cerachrom gradué 24 heures, la GMT-Master II peut afficher soit l'heure locale et l'heure de référence, soit l'heure locale et celle d'un fuseau horaire alternatif.",
+          "30": "La GMT-Master II abrite le calibre 3285, un mouvement qui permet aux voyageurs de régler facilement leur heure locale via la couronne de remontoir, sans arrêter la montre ni affecter l'aiguille 24 heures.",
+          "31": "Ainsi, les gens peuvent lire simultanément leur heure locale ainsi que l'heure « chez eux ». Le changement de date est lié à la traditionnelle aiguille des heures (heure locale).",
+          "32": "La GMT-Master II est équipée du calibre 3285",
+          "33": "un mouvement de nouvelle génération entièrement développé et manufacturé par Rolex. Véritable démonstration de technologie, ce mouvement mécanique à remontage automatique offre des gains fondamentaux en termes de précision, de praticité et de fiabilité, ainsi que de résistance aux chocs et aux champs magnétiques. La réserve de marche du calibre 3285 est d'environ 70 heures.",
+          "34": "Les versions en or 18 ct et la version Everose Rolesor de la GMT-Master II sont équipées du bracelet Oyster à trois maillons, tandis que les versions Oystersteel sont disponibles avec un bracelet Oyster ou avec un bracelet Jubilee à cinq maillons.",
+          "35": "En 2019, l'insert de lunette Cerachrom bleu et noir, l'Oystersteel et le bracelet Jubilee ont été réunis pour la première fois sur la GMT-Master II.",
+          "36": "Les bracelets Oyster et Jubilee sont équipés d'un fermoir de sécurité Oysterlock conçu par Rolex qui empêche toute ouverture accidentelle.",
+          "37": "Histoire",
+          "38": "À LA CONQUÊTE DU CIEL",
+          "39": "L'Oyster Perpetual GMT-Master a été lancée en 1955, à une époque où les voyages intercontinentaux connaissaient une expansion rapide.",
+          "40": "Elle est même devenue la montre officielle de Pan American World Airways – mieux connue sous le nom de Pan Am – alors la plus importante compagnie aérienne intercontinentale américaine.",
+          "41": "Lorsque Concorde, le premier avion de ligne supersonique, a effectué ses derniers vols d'essai dans les années 1960, Rolex a fièrement annoncé que les pilotes d'essai britanniques et français portaient des montres GMT-Master, cimentant le statut du GMT-Master à l'ère du vol supersonique.",
+          "42": "1955 - Lancement du GMT-Master",
+          "43": "Insert bicolore gradué 24 heures en plexiglas",
+          "44": "Conception emblématique",
+          "45": "Sur le modèle original de 1955, l'insert de la lunette graduée sur 24 heures était divisé en deux moitiés - une rouge, pour correspondre aux heures de clarté, et une bleue, pour la nuit. Au fil des ans, l'insert a été mis à disposition dans différentes combinaisons de couleurs. Initialement en plexiglas, il a été remplacé par de l'aluminium anodisé en 1959 et de la céramique haute technologie en 2005.",
+          "46": "1982 – Lancement du GMT-Master II",
+          "47": "Le nouveau mouvement a permis à l'aiguille des heures d'être réglée indépendamment.",
+          "48": "2005 - GMT-Master II",
+          "49": "avec insert Cerachrom gradué 24 heures en céramique noire.",
+          "50": "Insert de lunette en céramique",
+          "51": "En 2005, Rolex a remplacé l'insert de lunette en aluminium par de la céramique, une innovation supplémentaire. Pionnière dans la conception et la réalisation de composants céramiques, la marque a développé en interne ses lunettes monoblocs et ses inserts céramiques monoblocs.",
+          "52": "2013 - GMT-Master II",
+          "53": "avec insert Cerachrom bicolore gradué sur 24 heures en céramique bleue et noire.",
+          "54": "2013 - GMT-Master II",
+          "55": "avec insert Cerachrom bicolore gradué sur 24 heures en céramique rouge et bleue.",
+          "56": "2013 - GMT-Master II",
+          "57": "avec insert Cerachrom bicolore gradué sur 24 heures en céramique marron et noire. Lancement du calibre nouvelle génération 3285",
+          "58": "Contacter un bijoutier au sujet du GMT‑Master II",
+          "59": "Seuls les bijoutiers officiels Rolex sont autorisés à vendre des montres Rolex. Avec le nécessaire",
+          "addskills": "compétences et savoir-faire techniques, ils vous aideront à faire le choix qui durera toute une vie.",
+          "60": "Montres professionnelles",
+          "61": "- Voir tout",
+          "62": "Sous-marinière",
+          "63": "La référence parmi les montres de plongée",
+          "64": "Exploratrice",
+          "65": "L'appel des sommets",
+          "66": "Air-King",
+          "67": "Un hommage à l'aviation",
+          "68": "Cosmographe Daytona",
+          "69": "Né pour la course",
+          "70": "Yacht-Master",
+          "71": "La montre du large",
+          "72": "Habitant de la merr",
+          "73": "La montre qui a conquis les profondeurs",
+          "74": "PARTAGEZ CETTE PAGE"
+  
+      }
+   }
+  }
+  

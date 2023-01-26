@@ -1,0 +1,205 @@
+{
+
+  "Navbar": {
+     "welcome": {
+         "watches": "Uhren",
+         "worold": "Welt von Rolex",
+         "store": "Händlersuche",
+         "search": "Suche",
+         "selection": "Deine Auswahl"
+     }
+  },
+  "Cartt": {
+    "page2": {
+        "selection": "DEINE AUSWAHL",
+        "quantity": "GESAMTSTÜCKZAHL",
+        "amount": "GESAMTMENGE",
+        "have": "ARTIKEL"
+    }
+ },
+ "Search": {
+  "page3": {
+      "search": "DURCHSUCHEN SIE DIE ROLEX-WEBSITE",
+      "jeweler": "Finden Sie einen Juwelier"
+  }
+},
+"Locator": {
+  "page4": {
+      "1": "ROLEX OFFIZIELLER JUWELIER IN",
+      "2": "EUROPA",
+      "3": "Karte",
+      "4": "Nur offizielle Rolex",
+      "5": "Juweliere dürfen",
+      "6": "eine Rolex-Uhr verkaufen und warten.",
+      "7": "Mit den erforderlichen Fähigkeiten, dem technischen Know-how und der speziellen Ausrüstung,",
+      "8": "Sie garantieren die Echtheit jedes einzelnen Teils Ihrer Rolex und helfen Ihnen bei der Auswahl",
+      "9": "das hält ein Leben lang."
+  }
+},
+"Watches": {
+  "page5": {
+      "1": "ROLEX-UHREN",
+      "2": "DIE SAMMLUNG",
+      "3": "Entdecken Sie die Rolex-Kollektion prestigeträchtiger, hochpräziser Zeitmesser.",
+      "4": "Rolex bietet ein breites Sortiment an Oyster Perpetual- und Cellini-Uhren für jedes Handgelenk. Entdecken Sie die große Auswahl an Rolex-Uhren, um eine perfekte Kombination aus Stil und Funktionalität zu finden.",
+      "5": "Klassische Uhren",
+      "6": "Alle ansehen",
+      "7": "TAG-DATUM",
+      "8": "DATUM",
+      "9": "OYSTER PERPETUAL",
+      "10": "LADY-DATEJUST",
+      "11": "HIMMELSBEWOHNER",
+      "12": "CELLINI",
+      "13": "Professionelle Uhren",
+      "14": "Alle ansehen",
+      "15": "LUFT-KÖNIG",
+      "16": "YACHT-MASTER",
+      "17": "U-SEEMANN",
+      "18": "KOSMOGRAPH DAYTONA",
+      "19": "MEERBEWOHNER",
+      "20": "MILGAUSS",
+      "21": "Rolex bietet eine große Auswahl an Modellen, die von professionellen bis hin zu klassischen Uhren für jedes Handgelenk reichen.",
+      "22": "Erkunden Sie die Rolex-Kollektion, indem Sie Ihre Lieblingsmodelle, Materialien, Lünetten, Zifferblätter und Armbänder auswählen, um die Uhr zu finden, die für Sie gemacht wurde.",
+      "23": "Uhrenfinder",
+      "24": "Alle ansehen",
+      "25": "HERRENUHREN",
+      "26": "DAMENUHREN",
+      "27": "UHREN AUS STAHL",
+      "28": "HERRENUHREN",
+      "29": "DAMENUHREN",
+      "30": "UHREN AUS STAHL",
+      "31": "FORSCHERIN"
+  }
+},
+"World": {
+  "page6": {
+      "1": "WELT VON ROLEX",
+      "2": "SPORT, KUNST UND ERKUNDUNG",
+      "3": "Seit über einem Jahrhundert begleiten Rolex-Uhren Entdecker und Leistungsträger auf der ganzen Welt, von den Gipfeln der höchsten Berge bis zu den tiefsten Ausläufern des Ozeans.",
+      "4": "Heute ist Rolex bei den prestigeträchtigsten Veranstaltungen im Golf, Segeln, Tennis, Motorsport und bei Reitturnieren präsent. Rolex leistet einen einzigartigen und dauerhaften Beitrag zur globalen Kultur, Wissenschaft und Erforschung.",
+      "5": "Rolex und Sponsoring",
+      "6": "ROLEX AND MOTOR SPORT",
+      "7": "ROLEX UND TENNIS",
+      "8": "Rolex und Reitsport",
+      "9": "ROLEX UND GOLF",
+      "10": "ROLEX AND MOTOR SPORT",
+      "11": "ROLEX UND YACHTEN",
+      "12": "Kunst und Kultur",
+      "13": "ROLEX UND KINO",
+      "14": "ROLEX UND ARCHITEKTUR",
+      "15": "ROLEX UND DIE KUNST",
+      "16": "ROLEX MENTOREN und PROTEGES",
+      "17": "Wissenschaft und Erforschung",
+      "18": "ROLEX UND ERKUNDUNG",
+      "19": "ROLEX AUSZEICHNUNGEN FÜR UNTERNEHMEN"
+  }
+},
+"View": {
+  "page7": {
+      "1": "KLASSISCHE UHREN",
+      "2": "DIE SAMMLUNG",
+      "3": "Zeitloser Stil, auf den ersten Blick erkennbar.",
+      "4": "Die Oyster Perpetual Classic-Uhren und die Cellini-Kollektion bestehen aus Modellen, die das Know-how von Rolex und die hohen Standards der Perfektion in einem Ansatz vereinen, der das uhrmacherische Erbe in seiner zeitlosesten Form hervorhebt.",
+      "5": "DAT-DATUM",
+      "6": "DATUM",
+      "7": "OYSTER PERPETUAL",
+      "8": "HIMMELSBEWOHNER",
+      "9": "CELLINI",
+      "10": "LADY-DATEJUST",
+      "11": "PROFESSIONELLE UHREN"
+}
+},
+"View2": {
+  "page7": {
+      "1": "PROFESSIONELLE UHREN",
+      "2": "DIE SAMMLUNG",
+      "3": "Kombiniert Funktionalität mit zeitlosem Stil.",
+      "4": "Stöbern Sie durch die Rolex Professional Uhren und entdecken Sie Ihre Lieblingsuhr, indem Sie Materialien, Lünetten, Zifferblätter und Armbänder kombinieren. Rolex bietet eine breite Palette von Professional-Modellen an, echte Werkzeuguhren, die speziell für professionelle und sportliche Anforderungen in den Bereichen Tauchen, Rennen, Navigieren, Erkunden und Fliegen entwickelt wurden.",
+      "5": "LUFT-KÖNIG",
+      "6": "GMT-MASTER II",
+      "7": "YACHT-MASTER",
+      "8": "U-SEEMANN",
+      "9": "KOSMOGRAPH DAYTONA",
+      "10": "MEERBEWOHNER",
+      "11": "KLASSISCHE UHREN"
+}
+},
+  "LandingPage": {
+    "Page1": {
+        "1": "GMT-MASTER II",
+        "2": "DIE KOSMOPOLITISCHE UHR",
+        "3": "Die 1955 eingeführte GMT-Master wurde entwickelt, um die Zeit in zwei verschiedenen Zeitzonen gleichzeitig anzuzeigen, und wurde ursprünglich als Navigationsinstrument für Profis entwickelt, die den Globus durchqueren.",
+        "4": "Als Erbe des Originalmodells wurde die GMT-Master II 1982 vorgestellt, wobei ein neues Uhrwerk eine einfache Bedienung gewährleistet. Seine Kombination aus unvergleichlicher Funktionalität, Robustheit und sofort erkennbarer Ästhetik hat ein breiteres Publikum von Weltreisenden angezogen.",
+        "6": "GMT-MASTER II",
+        "7": "Oyster, 40 mm, Oystersteel and Everose gold",
+        "8": "GMT-MASTER II",
+        "9": "Oyster, 40 mm, Oystersteel New Model 2022",
+        "10": "GMT-MASTER II",
+        "11": "Oyster, 40 mm, white gold",
+        "12": "GMT-MASTER II",
+        "13": "Oyster, 40 mm, white gold",
+        "14": "GMT-MASTER II",
+        "15": "Oyster, 40 mm, Oystersteel",
+        "16": "GMT-MASTER II",
+        "17": "Oyster, 40 mm, Everose gold",
+        "18": "GMT-MASTER II",
+        "19": "Oyster, 40 mm, Oystersteel",
+        "20": "Design",
+        "21": "HIGH-TECH-KERAMIK",
+        "22": "Die emblematische zweifarbige Lünette macht die GMT-Master II sofort erkennbar.",
+        "23": "Diese in beide Richtungen drehbare Lünette ist mit einem Cerachrom-Einsatz mit 24-Stunden-Graduierung aus extrem harter Keramik ausgestattet, der dank eines von Role entwickelten bahnbrechenden Verfahrens hergestellt wurde",
+        "24": "Der zweifarbige Cerachrom-Einsatz ist in zwei Hälften geteilt: eine für den Tag und die andere für die Nacht. Rolex hat eine exklusive Technik entwickelt, um den Cerachrom-Einsatz in Rot und Blau herzustellen – den Originalfarben der GMT-Master.",
+        "25": "Die scharfe, klare Abgrenzung zwischen den beiden Farben ist das Ergebnis großer Feinheit und Präzision in verschiedenen Stadien des Färbeprozesses.",
+        "26": "Merkmale",
+        "27": "ZWEI ZEITZONEN AUF EINMAL",
+        "28": "Im Ausland können Reisende die Uhrzeit in zwei Zeitzonen gleichzeitig ablesen.",
+        "29": "Mit traditionellen Stunden-, Minuten- und Sekundenzeigern, einem 24-Stunden-Zeiger mit dreieckiger Spitze und einer in beide Richtungen drehbaren Lünette mit Cerachrom-Einsatz mit 24-Stunden-Graduierung kann die GMT-Master II entweder die Ortszeit und die Referenzzeit oder die Ortszeit anzeigen und die einer alternativen Zeitzone.",
+        "30": "Die GMT-Master II beherbergt das Kaliber 3285, ein Uhrwerk, mit dem Reisende ihre Ortszeit einfach über die Aufzugskrone einstellen können, ohne die Uhr anzuhalten oder den 24-Stunden-Zeiger zu beeinflussen.",
+        "31": "Dadurch können die Menschen gleichzeitig ihre Ortszeit und die Zeit „zu Hause“ ablesen. Der Datumswechsel ist an den traditionellen Stundenzeiger (Ortszeit) gekoppelt.",
+        "32": "Die GMT-Master II ist mit dem Kaliber 3285 ausgestattet",
+        "33": "ein vollständig von Rolex entwickeltes und hergestelltes Uhrwerk der neuen Generation. Dieses mechanische Uhrwerk mit Automatikaufzug ist eine vollendete Demonstration der Technologie und bietet grundlegende Vorteile in Bezug auf Präzision, Komfort und Zuverlässigkeit sowie Widerstandsfähigkeit gegen Stöße und Magnetfelder. Die Gangreserve des Kalibers 3285 beträgt etwa 70 Stunden.",
+        "34": "Die 18-karätigen Goldversionen und die Everose Rolesor-Version der GMT-Master II sind mit dem dreigliedrigen Oyster-Armband ausgestattet, während die Oystersteel-Versionen mit einem Oyster-Armband oder mit einem fünfgliedrigen Jubilee-Armband erhältlich sind.",
+        "35": "2019 wurden bei der GMT-Master II erstmals der blau-schwarze Lünetteneinsatz aus Cerachrom, Oystersteel und das Jubilee-Armband zusammengebracht.",
+        "36": "Die Oyster- und Jubilee-Armbänder sind mit einem von Rolex entworfenen Oysterlock-Sicherheitsverschluss ausgestattet, der ein versehentliches Öffnen verhindert.",
+        "37": "Geschichte",
+        "38": "DEN HIMMEL EROBERN",
+        "39": "Die Oyster Perpetual GMT-Master wurde 1955 auf den Markt gebracht, zu einer Zeit, als interkontinentale Reisen eine rasante Expansion erlebten.",
+        "40": "Sie wurde sogar zur offiziellen Uhr von Pan American World Airways – besser bekannt als Pan Am – damals die bekannteste amerikanische Interkontinentalfluggesellschaft.",
+        "41": "Als Concorde, das erste Überschall-Passagierflugzeug, in den 1960er Jahren seine letzten Testflüge durchführte, gab Rolex stolz bekannt, dass sowohl die britischen als auch die französischen Testpiloten GMT-Master-Uhren trugen, was den Status der GMT-Master in einer Ära des Überschallflugs festigte.",
+        "42": "1955 - Markteinführung der GMT-Master",
+        "43": "Zweifarbiger Einsatz mit 24-Stunden-Graduierung aus Plexiglas",
+        "44": "Emblematisches Design",
+        "45": "Beim Originalmodell von 1955 war der 24-Stunden-Lünetteneinsatz mit Graduierung in zwei Hälften geteilt – eine rote, um den Tageslichtstunden zu entsprechen, und eine blaue, für die Nacht. Im Laufe der Jahre wurde der Einsatz in verschiedenen Farbkombinationen angeboten. Ursprünglich aus Plexiglas hergestellt, wurde es 1959 durch eloxiertes Aluminium und 2005 durch Hightech-Keramik ersetzt.",
+        "46": "1982 – Markteinführung der GMT-Master II",
+        "47": "Das neue Uhrwerk ermöglichte eine unabhängige Einstellung des Stundenzeigers.",
+        "48": "2005 - GMT-Master II",
+        "49": "mit 24-Stunden-Graduierung Cerachrom-Einsatz aus schwarzer Keramik.",
+        "50": "Lünetteneinsatz aus Keramik",
+        "51": "2005 ersetzte Rolex den Lünetteneinsatz aus Aluminium durch Keramik – eine weitere Innovation. Als Pionier im Design und der Herstellung von Keramikkomponenten hat die Marke ihre Monobloc-Lünetten und Monobloc-Keramikeinsätze im eigenen Haus entwickelt.",
+        "52": "2013 - GMT-Master II",
+        "53": "mit zweifarbigem Cerachrom-Einsatz mit 24-Stunden-Graduierung aus blauer und schwarzer Keramik.",
+        "54": "2013 - GMT-Master II",
+        "55": "mit zweifarbigem Cerachrom-Einsatz mit 24-Stunden-Graduierung aus roter und blauer Keramik.",
+        "56": "2013 - GMT-Master II",
+        "57": "mit 24-Stunden-Graduierung zweifarbiger Cerachrom-Einlage aus brauner und schwarzer Keramik. Einführung des Kalibers 3285 der neuen Generation",
+        "58": "Wenden Sie sich wegen der GMT‑Master II an einen Juwelier",
+        "59": "Nur offizielle Rolex-Juweliere dürfen Rolex-Uhren verkaufen. Mit dem nötigen",
+        "addskills": "Fähigkeiten und technisches Know-how, sie werden Ihnen helfen, die Wahl zu treffen, die ein Leben lang Bestand haben wird.",
+        "60": "Professionelle Uhren",
+        "61": "- Alle ansehen",
+        "62": "Unterseeboot",
+        "63": "Die Referenz unter den Taucheruhren",
+        "64": "Forscherin",
+        "65": "Der Ruf der Gipfel",
+        "66": "Luft-König",
+        "67": "Eine Hommage an die Luftfahrt",
+        "68": "Kosmograf Daytona",
+        "69": "Zum Rennen geboren",
+        "70": "Yacht-Master",
+        "71": "Die Uhr der offenen Meere",
+        "72": "Meeresbewohner",
+        "73": "Die Uhr, die die Tiefe erobert hat",
+        "74": "TEILE DIESE SEITE"
+    }
+ }
+}

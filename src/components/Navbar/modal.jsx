@@ -8,7 +8,7 @@ const textScrollVariants = {
   visible: { opacity: 1, top: 0 },
   hidden: { opacity: 0 },
 };
-function Modal({ show, closeModal }) {
+const Modal = ({ show, CloseModal }) => {
   const { t, i18n } = useTranslation();
 
   const controls = useAnimation();
@@ -49,7 +49,7 @@ function Modal({ show, closeModal }) {
             </g>
           </svg>
           <svg
-            onClick={closeModal}
+            onClick={CloseModal}
             className="Rolex_1_svg"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -95,6 +95,6 @@ function Modal({ show, closeModal }) {
     </motion.div>,
     document.getElementById("portal")
   );
-}
+};
 
 export default Modal;

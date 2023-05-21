@@ -8,21 +8,30 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .Images-7-section {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
   align-items: center;
   justify-content: center;
   z-index: 10;
+
 }
 .waviy-Page4 {
   color: white;
   letter-spacing: 0.2em;
   font-size: 45px;
+}
+
+@media only screen and (max-width: 600px) { 
+  .waviy-Page4 {
+    font-size: 20px;
+  }
+  .Images-7-section {
+    height: 350px;
+    display: none;
+  }
 }

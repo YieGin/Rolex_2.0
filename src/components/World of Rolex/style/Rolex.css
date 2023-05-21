@@ -3,14 +3,12 @@
 .Rolex_main {
   width: 100%;
   height: 100%;
-  padding-bottom: 10%;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .Rolex_11 {
   width: 100%;
-  height: 780px;
+  height: 650px;
 }
 
 .Video_Rolex2 {
@@ -30,29 +28,29 @@
   height: 100%;
 }
 .World {
-  z-index: 100;
+  z-index: 10;
   color: white;
   letter-spacing: 0.2em;
   font-size: 45px;
 }
 .Worldd {
-  z-index: 100;
+  z-index: 1;
   color: white;
   letter-spacing: 0.2em;
   font-size: 22px;
 }
 .Rolex3 {
   text-align: justify;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 17%;
+  padding-right: 17%;
   font-family: 'Montserrat', sans-serif;
   line-height: 45px;
   padding-top: 5%;
 }
 .Rolex4 {
   text-align: justify;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 17%;
+  padding-right: 17%;
   font-family: 'Montserrat', sans-serif;
   line-height: 45px;
   padding-top: 1%;
@@ -207,58 +205,149 @@
       height: 400px;
     }
     
-       .box3 > img {
-         width: 100%;
-         height: calc(100% - 5vh);
-         object-fit: cover; 
-         transition: .5s;
-       }
-       
-       .box3 > span {
-         display: block;
-         text-align: center;
-         height: 10vh;
-         line-height: 2.6;
-       }
-       
-       .box3:hover { flex: 1 1 50%; }
-       .box3:hover > img {
-         width: 100%;
-         height: 120%;
-       }
+ .box3 > img {
+   width: 100%;
+   height: calc(100% - 5vh);
+   object-fit: cover; 
+   transition: .5s;
+ }
+ 
+ .box3 > span {
+   display: block;
+   text-align: center;
+   height: 10vh;
+   line-height: 2.6;
+ }
+ 
+ .box3:hover { flex: 1 1 50%; }
+ .box3:hover > img {
+   width: 100%;
+   height: 120%;
+ } .container4 {
+  display: flex;
+  width: 100%;
+  padding: 0% 15%;
+  box-sizing: border-box;
+}
+      
+.box4 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  line-height: 0;
+}
+
+.box4 > img {
+  width: 100%;
+  height: calc(100% - 5vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box4 > span {
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box4:hover { flex: 1 1 50%; }
+.box4:hover > img {
+  width: 100%;
+  height: 110%;
+}
 
 
-       .container4 {
-        display: flex;
-        width: 100%;
-        padding: 0% 15%;
-        box-sizing: border-box;
-      }
-      
-      .box4 {
-        flex: 1;
-        overflow: hidden;
-        transition: .5s;
-        margin: 0 2%;
-        line-height: 0;
-      }
-      
-         .box4 > img {
-           width: 100%;
-           height: calc(100% - 5vh);
-           object-fit: cover; 
-           transition: .5s;
-         }
-         
-         .box4 > span {
-           display: block;
-           text-align: center;
-           height: 10vh;
-           line-height: 2.6;
-         }
-         
-         .box4:hover { flex: 1 1 50%; }
-         .box4:hover > img {
-           width: 100%;
-           height: 110%;
-         }
+@media only screen and (max-width: 1300px) { 
+  .Rolex_11 {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 1025px) { 
+  .Rolex_11 {
+    height: 400px;
+  }
+  .Video_Rolex2 {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 925px) { 
+  .Rolex3 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .Rolex4 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .Rolex_down4 {
+    font-size: 13px;
+   }
+}
+
+@media only screen and (max-width: 555px) { 
+  .Rolex3 {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .Rolex4 {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .box2 {
+    height: 300px;
+  }
+  .box3 {
+    height: 300px;
+  }
+  .box3 > span {
+    height: 50px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 10px;
+  }
+  .box2 > span {
+    height: 50px;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 555px) { 
+  .World {
+    font-size: 15px;
+  }
+  .Worldd {
+    font-size: 20px;
+    letter-spacing: 0
+  }
+  .container4 {
+    padding: 0;
+  }
+  .Rolex3 {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .Rolex4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 25px;
+    font-weight: 600;
+  }
+  .Rolex_down4 {
+    font-size: 10px;
+   }
+   .Rolex5 {
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 20px;
+  }
+}

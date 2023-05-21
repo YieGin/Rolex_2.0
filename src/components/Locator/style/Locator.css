@@ -6,7 +6,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding-top: 10%;
+  padding-top: 5%;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -19,9 +19,116 @@
   transition: 1s;
 
 }
-.Image22:hover {
-  transform:scale(1.1);
-  transition: 1s;
-  width: 95.1%;
-  cursor: pointer;
-}
+
+.group {
+  position: relative;
+ }
+ 
+ .input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+ }
+ 
+ .input:focus {
+  outline: none;
+ }
+ 
+ .Label_Store {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+ }
+ 
+ .input:focus ~ label, .input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #00851b;
+ }
+ 
+ .bar {
+  position: relative;
+  display: block;
+  width: 500px;
+ }
+ 
+ .bar:before, .bar:after {
+  content: '';
+  height: 3px;
+  width: 0;
+  bottom: -1px;
+  position: absolute;
+  background: #00851b;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+ }
+ 
+ .bar:before {
+  left: 50%;
+ }
+ 
+ .bar:after {
+  right: 50%;
+ }
+ 
+ .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+  width: 50%;
+ }
+ 
+ .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+ }
+ 
+ .input:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+ }
+ 
+ @keyframes inputHighlighter {
+  from {
+   background: #5264AE;
+  }
+ 
+  to {
+   width: 0;
+   background: transparent;
+  }
+ }
+
+
+ @media only screen and (max-width: 550px) { 
+  .input {
+    width: 350px;
+   }
+   .bar {
+    width: 350px;
+   }
+   .Image_map {
+    width: 100%;
+  }
+ }
+ @media only screen and (max-width: 450px) { 
+  .input {
+    width: 300px;
+   }
+   .bar {
+    width: 300px;
+   }
+ }

@@ -111,3 +111,47 @@
 .input:checked + .slider:before {
   transform: translateX(30px);
 }
+
+@media screen and (max-width: 501px) {
+  .Switch_main {
+    margin-left: 0;
+  }
+  .switch{
+    width: 40px;
+    height: 24px;
+  }
+  .slider:before {
+    width: 15px;
+    height: 15px;
+    bottom: 5px;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -10px;
+    right: 0;
+    bottom: 0;
+    background-color: #73C0FC;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  .sun svg {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    z-index: 1;
+    width: 17px;
+    height: 17px;
+  }
+  
+  .moon svg {
+    fill: #1e96f1;
+    position: absolute;
+    top: 6px;
+    left: -5px;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+  }
+}

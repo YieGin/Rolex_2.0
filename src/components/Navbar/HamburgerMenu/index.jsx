@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-const HamburgerMenu = () => {
+const HamburgerMenu = ({ setShow }) => {
   const { totalQuantity } = useSelector((state) => state.AllCart);
   const { menu, setMenu } = useContext(ContextProvider);
   const { t } = useTranslation();
@@ -39,13 +39,13 @@ const HamburgerMenu = () => {
 
   return (
     <div>
-      {menu && (
+      {menu ? (
         <motion.div
           ref={ref2}
-          variants={DivScrollTop}
+          variants={textScrollVariants}
           initial="hidden"
-          className="bg-white w-[100%] h-[250px] top-[-20%] duration-100 fixed
-          z-50 flex flex-col items-center justify-center mt-[22%] gap-y-5 sm:mt-[10%] phone:mt-[14%]"
+          className="bg-zinc-900 w-[100%] h-[100%] duration-500 fixed right-[200px]
+          z-50 flex flex-col  gap-y-[10%] px-[10%] lg:hidden"
           animate={controls2}
           transition={{
             duration: 1,
@@ -53,7 +53,54 @@ const HamburgerMenu = () => {
             ease: [0, 0.701, 0.5, 1.01],
           }}
         >
-          <div className=" flex flex-col gap-y-5 text-justify font-semibold mt-5 phone:mt-0">
+          <div className="flex items-center lg:mt-[50%] mt-[20%] justify-between">
+            <motion.div
+              onClick={() => setShow(true)}
+              ref={ref}
+              variants={DivScrollTop}
+              initial="hidden"
+              className="flex text-center cursor-pointer items-center gap-x-2 relative top-[-50px] z-50"
+              animate={controls}
+              transition={{
+                duration: 1.8,
+                delay: 2,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <svg
+                className="fill-white"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                width="16"
+                height="16"
+              >
+                <path d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"></path>
+              </svg>
+              <p className="text-white text-[20px] phone:text-[25px]">
+                {t("Navbar.welcome.search")}
+              </p>
+            </motion.div>
+            <Link onClick={() => setMenu(false)} to="./cart">
+              <motion.div
+                ref={ref}
+                variants={DivScrollTop}
+                initial="hidden"
+                className="flex items-center gap-x-1 relative top-[50px] z-50"
+                animate={controls}
+                transition={{
+                  duration: 1.8,
+                  delay: 2,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+              >
+                <p className="text-white font-bold upad:text-[30px] text-[20px] phone:text-[25px]">
+                  {t("Navbar.welcome.selection")}
+                  <span className="text-green-600 z-50">({totalQuantity})</span>
+                </p>
+              </motion.div>
+            </Link>
+          </div>
+          <div className=" flex flex-col gap-y-[50px] items-center font-semibold mt-5 phone:mt-0">
             <Link onClick={() => setMenu(false)} to="/Watches">
               <motion.ul
                 ref={ref}
@@ -63,13 +110,13 @@ const HamburgerMenu = () => {
                 animate={controls}
                 transition={{
                   duration: 1.8,
-                  delay: 0.5,
+                  delay: 1.5,
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
                 <li className="li-text">
                   <a className="A-text" href="#0">
-                    <p className="text-black text-[25px] upad:text-[30px]">
+                    <p className="text-white text-[25px] upad:text-[30px]">
                       {t("Navbar.welcome.watches")}
                     </p>
                   </a>
@@ -84,14 +131,14 @@ const HamburgerMenu = () => {
                 className="menu relative top-[-200px]"
                 animate={controls}
                 transition={{
-                  duration: 1.8,
-                  delay: 0.9,
+                  duration: 2,
+                  delay: 1,
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
                 <li className="li-text">
                   <a className="A-text" href="#0">
-                    <p className="text-black text-[25px] upad:text-[30px]">
+                    <p className="text-white text-[25px] upad:text-[30px]">
                       {t("Navbar.welcome.worold")}
                     </p>
                   </a>
@@ -106,14 +153,14 @@ const HamburgerMenu = () => {
                 className="menu relative top-[-200px]"
                 animate={controls}
                 transition={{
-                  duration: 1.9,
-                  delay: 1.2,
+                  duration: 2,
+                  delay: 0.5,
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
                 <li className="li-text">
                   <a className="A-text" href="#0">
-                    <p className="text-black text-[25px] upad:text-[30px]">
+                    <p className="text-white text-[25px] upad:text-[30px]">
                       {t("Navbar.welcome.store")}
                     </p>
                   </a>
@@ -121,26 +168,20 @@ const HamburgerMenu = () => {
               </motion.ul>
             </Link>
           </div>
-          <Link onClick={() => setMenu(false)} to="./cart">
-            <motion.div
-              ref={ref}
-              variants={DivScrollTop}
-              initial="hidden"
-              className="flex items-center gap-x-1 relative top-[50px] z-50"
-              animate={controls}
-              transition={{
-                duration: 1.8,
-                delay: 1.8,
-                ease: [0, 0.71, 0.2, 1.01],
-              }}
-            >
-              <p className="text-black font-bold text-[25px] upad:text-[30px]">
-                {t("Navbar.welcome.selection")}
-                <span className="text-green-600 z-50">({totalQuantity})</span>
-              </p>
-            </motion.div>
-          </Link>
         </motion.div>
+      ) : (
+        <motion.div
+          ref={ref2}
+          variants={textScrollVariants}
+          initial="hidden"
+          className="bg-zinc-900 w-[0%] h-[100%] duration-500 fixed lg:hidden"
+          animate={controls2}
+          transition={{
+            duration: 1,
+            delay: 0.6,
+            ease: [0, 0.701, 0.5, 1.01],
+          }}
+        ></motion.div>
       )}
     </div>
   );

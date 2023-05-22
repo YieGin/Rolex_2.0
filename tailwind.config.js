@@ -8,6 +8,7 @@ module.exports = {
         sm: "725px",
         upad: "625px",
         phone: "450px",
+        phoneSm: "501px",
       },
     },
   },

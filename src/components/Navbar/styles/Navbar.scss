@@ -5,7 +5,7 @@
   display: flex;
   width: 100%;
   align-items: center;
-  height: 100px;
+  height: 80px;
   padding-left: 5%;
   padding-right: 5%;
   color: white;
@@ -61,7 +61,7 @@ ul {
   transition: all 0.5s cubic-bezier(.29,.04,.52,1);
   backdrop-filter: blur(1px);
   background-color: white;
-  z-index: 30;
+  z-index: 80;
 }
 
 .overlay {
@@ -203,7 +203,21 @@ ul {
   .Right_Nav {
     display: none;
   }
-  .Switch_main {
+}
+@media only screen and (max-width: 800px) { 
+  .modal {
+    top: -100px;
+  }
+  
+}
+@media only screen and (max-width: 500px) { 
+  .Logo_rolex {
+    margin: 0;
     display: none;
   }
+  .Navbar_main {
+    justify-content: space-between;
+    height: 50px;
+  }
+
 }

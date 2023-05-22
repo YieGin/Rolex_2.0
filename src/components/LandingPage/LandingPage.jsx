@@ -87,28 +87,11 @@ const LandingPage = (props) => {
           </div>
         ))}
       </div>
-      <Parallax
-        {...parallaxImage3}
-        strength={200}
-        bgImage={
-          "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-bezel_m126710blro_0001_1801ac_009.jpg?imwidth=1920"
-        }
-      >
-        <section className="Images-6-section">
-          <div className="waviy-Page4"></div>
-        </section>
-      </Parallax>
-      <Parallax
-        {...parallaxImage3}
-        strength={100}
-        bgImage={
-          "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1920"
-        }
-      >
-        <section className="Images-6-section">
-          <div className="waviy-Page4"></div>
-        </section>
-      </Parallax>
+      <img
+        className="h-[300px] phone:h-[500px] w-[100%] object-cover"
+        alt=""
+        src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1920"
+      />
       <div id={props.theme} className="Landing_main_33 bg-gray-50">
         <div id={props.theme} className="Landing_main3">
           <ul className="flex w-[400px] justify-center items-center flex-col">
@@ -224,17 +207,11 @@ const LandingPage = (props) => {
           alt=""
         />
       </div>
-      <Parallax
-        {...parallaxImage3}
-        strength={100}
-        bgImage={
-          "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-winding-crown_m126710blro-0001_1801ac_007.jpg?imwidth=1920"
-        }
-      >
-        <section className="Images-6-section">
-          <div className="waviy-Page4"></div>
-        </section>
-      </Parallax>
+      <img
+        className="h-[300px] phone:h-[500px] w-[100%] object-cover"
+        alt=""
+        src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-winding-crown_m126710blro-0001_1801ac_007.jpg?imwidth=1920"
+      />
       <div className="flex flex-col items-center text-[20px] pt-[2%] phone:text-[25px]">
         <h2 id={props.theme}>
           {t("LandingPage.Page1.60")}

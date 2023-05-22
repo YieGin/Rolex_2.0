@@ -665,13 +665,18 @@ $color-facebook: #3b5a9b;
     height: 200px;
     width: 200px;
   }
+  .Landing_main3 {
+    padding-bottom: 5%;
+  }
   .Landing_main3text2 > b {
     line-height: 25px;
     font-size: 12px;
+    padding-top: 5%;
   }
   .Landing_main3text2 > p {
     line-height: 25px;
     font-size: 12px;
+    padding-bottom: 5%;
   }
   .Landing_main3text2 {
     text-align: start;
@@ -679,5 +684,8 @@ $color-facebook: #3b5a9b;
   .Landing_main_33 {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .button:after {
+    font-size: 20px;
   }
 }

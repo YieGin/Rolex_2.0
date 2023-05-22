@@ -12,6 +12,7 @@ import Image10 from "../../Images/10.png";
 import Image11 from "../../Images/11.png";
 import Image12 from "../../Images/12.png";
 import Image13 from "../../Images/13.png";
+import Image21 from "../../Images/21.jpg";
 import Twitter from "../../svgs/twitter.svg";
 const LandingPage = (props) => {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ const LandingPage = (props) => {
     bgImageStyle: {
       height: "100%",
       width: "100%",
-      objectFit: "contain",
+      objectFit: "cover",
     },
   };
 
@@ -151,17 +152,11 @@ const LandingPage = (props) => {
         src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/video/autoplay/professional-watches-gmt-master-ii-video-autoplay.mp4
 "
       ></video>
-      <Parallax
-        {...parallaxImage3}
-        strength={100}
-        bgImage={
-          "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-bezel-hours_0001_1920x1080.jpg?imwidth=1920"
-        }
-      >
-        <section className="Images-6-section">
-          <div className="waviy-Page4"></div>
-        </section>
-      </Parallax>
+      <img
+        className="h-[300px] phone:h-[500px] w-[100%] object-cover"
+        alt=""
+        src={Image21}
+      />
       <div id={props.theme} className="Landing_main_33 bg-gray-50">
         <div id={props.theme} className="Landing_main3">
           <ul className="Landing_main3text">

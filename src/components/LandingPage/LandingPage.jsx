@@ -28,7 +28,7 @@ const LandingPage = (props) => {
     bgImageStyle: {
       height: "100%",
       width: "100%",
-      objectFit: "cover",
+      objectFit: "contain",
     },
   };
 
@@ -99,7 +99,7 @@ const LandingPage = (props) => {
       </Parallax>
       <Parallax
         {...parallaxImage3}
-        strength={200}
+        strength={100}
         bgImage={
           "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii_m126710blro-0001_1801ac_003.jpg?imwidth=1920"
         }
@@ -153,7 +153,7 @@ const LandingPage = (props) => {
       ></video>
       <Parallax
         {...parallaxImage3}
-        strength={200}
+        strength={100}
         bgImage={
           "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-bezel-hours_0001_1920x1080.jpg?imwidth=1920"
         }
@@ -231,7 +231,7 @@ const LandingPage = (props) => {
       </div>
       <Parallax
         {...parallaxImage3}
-        strength={200}
+        strength={100}
         bgImage={
           "https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-winding-crown_m126710blro-0001_1801ac_007.jpg?imwidth=1920"
         }

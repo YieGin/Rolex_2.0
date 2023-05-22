@@ -513,6 +513,11 @@ $color-facebook: #3b5a9b;
   .Landing_main1 {
     height: 340px;
   }
+  .Video_Landing {
+    object-fit: cover;
+    margin-top: 50px;
+    height: 500px;
+  }
   .Landing_2 {
     display: flex;
     align-items: center;
@@ -546,7 +551,7 @@ $color-facebook: #3b5a9b;
   }
   .Video_Landing {
     object-fit: cover;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 400px;
   }
   .Text_video_2 {
@@ -604,7 +609,6 @@ $color-facebook: #3b5a9b;
     height: 200px;
   }
   .Video_Landing {
-    object-fit: cover;
     height: 300px;
   }
   .Video_Landing2 {
@@ -640,20 +644,6 @@ $color-facebook: #3b5a9b;
   }
   .Image5 {
     transition: 1s;
-    width: 300px;
-  }
-  .social-icon {
-    width: 40px;
-    height: 40px;
-  }
-  .Svg_social {
-    width: 25px;
-    height: 25px;
-  }
-}
-@media only screen and (max-width: 450px) { 
-  .Image5 {
-    transition: 1s;
     width: 250px;
   }
   .social-icon {
@@ -663,5 +653,31 @@ $color-facebook: #3b5a9b;
   .Svg_social {
     width: 22px;
     height: 22px;
+  }
+  .Video_Landing {
+    object-fit: contain;
+    height: 300px;
+  }
+  .Images-6-section {
+    height: 250px;
+  }
+  .Image12 {
+    height: 200px;
+    width: 200px;
+  }
+  .Landing_main3text2 > b {
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .Landing_main3text2 > p {
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .Landing_main3text2 {
+    text-align: start;
+  }
+  .Landing_main_33 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }

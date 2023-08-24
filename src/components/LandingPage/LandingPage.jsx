@@ -16,32 +16,19 @@ import Image21 from "../../Images/21.jpg";
 import Twitter from "../../svgs/twitter.svg";
 const LandingPage = (props) => {
   const { t } = useTranslation();
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   const items = useSelector((state) => state.AllCart.items);
   const Professional = useSelector((state) => state.AllCart.Professional);
   const dispatch = useDispatch();
 
-  const parallaxImage3 = {
-    bgImageStyle: {
-      height: "100%",
-      width: "100%",
-      objectFit: "cover",
-    },
-  };
-
   return (
     <div className="Landing_main">
-      <div className="Landing_mainTop">
+      <div className="Landing_mainTop h-[90vh]">
         <video
           className="Video_Landing"
           autoPlay
           muted
           loop
-          src="https://content.rolex.com/dam/homepage/hss/watches/professional-watches/gmt-master-ii/homepage-gmt-master-ii-m126715chnr-0001.mp4
+          src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/video/cover/professional-watches-gmt-master-ii-cover-video.mp4
 "
         ></video>
         <ul className="Video_text">
@@ -49,22 +36,6 @@ const LandingPage = (props) => {
           <h2 style={{ color: "rgba(255, 255, 255, 0.795)" }}>
             {t("LandingPage.Page1.2")}
           </h2>
-        </ul>
-      </div>
-      <div className="Landing_main1">
-        <video
-          className="Video_Landing2"
-          autoPlay
-          muted
-          loop
-          src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/video/cover/professional-watches-gmt-master-ii-cover-video.mp4
-"
-        ></video>
-        <ul className="Video_text2">
-          <h1 className="Text_video_2">{t("LandingPage.Page1.3")}</h1>
-          <p className="Text_video_2" style={{ lineHeight: "30px" }}>
-            {t("LandingPage.Page1.4")}
-          </p>
         </ul>
       </div>
       <div id={props.theme} className="Landing_main2">
@@ -80,7 +51,7 @@ const LandingPage = (props) => {
               <img className="Image5" src={item.img} alt="" />
             </div>
             <p className="text-[15px] upad:text-[20px]">{item.name}</p>
-            <p className="w-[100%] text-[15px] upad:text-[20px]">
+            <p className="w-[350px] text-[15px] upad:text-[20px]">
               {item.title}
             </p>
             <p className="text-green-600">{item.price}$</p>
@@ -212,8 +183,11 @@ const LandingPage = (props) => {
         alt=""
         src="https://content.rolex.com/dam/watches/family-pages/gmt-master-ii/professional-watches-gmt-master-ii-winding-crown_m126710blro-0001_1801ac_007.jpg?imwidth=1920"
       />
-      <div className="flex flex-col items-center text-[20px] pt-[2%] phone:text-[25px]">
-        <h2 id={props.theme}>
+      <div
+        id={props.theme}
+        className="flex flex-col items-center text-[20px] pt-[2%] phone:text-[25px]"
+      >
+        <h2>
           {t("LandingPage.Page1.60")}
           <Link to="/ViewI">
             <span className="text-green-600">{t("LandingPage.Page1.61")}</span>
@@ -236,13 +210,10 @@ const LandingPage = (props) => {
           </div>
         ))}
       </div>
-      <div id={props.theme} className="share_div">
-        <h1 className="Share_social">{t("LandingPage.Page1.74")}</h1>
-      </div>
       <div id={props.theme} className="social-icons">
         <a className="social-icon social-icon--codepen">
           <i className="fa fa-codepen">
-            <img src={Twitter} />
+            <img className="w-[40px] h-[40px]" src={Twitter} />
           </i>
           <div className="tooltip">twitter</div>
         </a>

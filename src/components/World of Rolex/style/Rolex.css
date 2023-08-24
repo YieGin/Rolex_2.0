@@ -128,7 +128,7 @@
     width: 100%;
     padding: 0% 2%;
     box-sizing: border-box;
-    height: 50%;
+    height: 300px;
   }
   
   .box2 {
@@ -300,22 +300,23 @@
     font-weight: 500;
   }
   .box2 {
-    height: 300px;
+    height: 100%;
   }
   .box3 {
     height: 300px;
   }
   .box3 > span {
     height: 50px;
-    font-size: 10px;
+    font-size: 7px;
     line-height: 12px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .box2 > span {
-    height: 50px;
-    font-size: 10px;
+    height: 150px;
+    font-size: 7px;
     line-height: 12px;
-    margin-top: 10px;
+    margin-top: 5px;
+    
   }
 }
 

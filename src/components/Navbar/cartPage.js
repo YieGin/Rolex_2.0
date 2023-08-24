@@ -8,7 +8,9 @@ const CartPage = (props) => {
     window.scrollTo(0, 0);
   }, []);
 
-  const { cart, totalPrice } = useSelector((state) => state.AllCart);
+  const { cart, totalPrice, totalQuantity } = useSelector(
+    (state) => state.AllCart
+  );
   const dispatch = useDispatch();
 
   const { t, i18n } = useTranslation();
@@ -21,7 +23,7 @@ const CartPage = (props) => {
       <div className="Cart_1">
         <h1 className="selection_text">
           {t("Cartt.page2.selection")}{" "}
-          <span className="text-green-600">{cart.length}</span>
+          <span className="text-green-600">{totalQuantity}</span>
         </h1>
       </div>
       <div className="Total_price">

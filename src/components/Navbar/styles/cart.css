@@ -180,17 +180,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 1%;
-  row-gap: 30px;
   color: rgb(0, 0, 0);
 }
 
 
 .selection_text {
   color: rgb(101, 101, 101);
-  -webkit-box-reflect: below -20px linear-gradient(transparent,hsla(0,0%,100%,.219));
-  font-size: 35px;
-  letter-spacing: 0.1em;
+  font-size: 25px;
 }
 
 @keyframes animate {

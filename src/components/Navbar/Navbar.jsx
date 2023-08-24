@@ -120,7 +120,7 @@ const Navbar = ({ toggleTheme, theme }) => {
         )}
         <Link className="phoneSm:hidden" to="/">
           <svg
-            className="w-[50px] h-[50px] fill-red-600 upad:w-[80px] upad:h-[80px]"
+            className="w-[50px] h-[50px] fill-white upad:w-[80px] upad:h-[80px]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 103 59"
             aria-hidden="true"
